@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T08:31:31.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="73SZ17eU_L8AJDeCz_-4" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-07T09:04:41.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="35nkeCI91okk4TKpkKfK" version="21.6.6" type="github">
   <diagram id="3228e29e-7158-1315-38df-8450db1d8a1d" name="Page-1">
     <mxGraphModel dx="2603" dy="1585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -313,6 +313,15 @@
         </mxCell>
         <mxCell id="XZCAtSbBVg5t47LlT6O4-5" value="&lt;h1&gt;项目管理制度&lt;/h1&gt;&lt;p&gt;1.作息时间&lt;/p&gt;&lt;p&gt;2.奖惩制度&lt;/p&gt;&lt;p&gt;3.MVP&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-830" y="250" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XZCAtSbBVg5t47LlT6O4-6" value="资方交互" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-160" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XZCAtSbBVg5t47LlT6O4-7" value="金租模式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XZCAtSbBVg5t47LlT6O4-6">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XZCAtSbBVg5t47LlT6O4-8" value="租金贷模式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="XZCAtSbBVg5t47LlT6O4-6">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
