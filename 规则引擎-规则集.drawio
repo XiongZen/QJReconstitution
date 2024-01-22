@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T03:13:37.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wRAnVLNch7sd-WaDfk8l" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T03:14:20.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MvXJsJ6zI6VGrWfJ1ZWz" version="22.1.20" type="github">
   <diagram name="第 1 页" id="rjAUkO0vNHYu7uV1Q9YC">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,6 +160,9 @@
         </mxCell>
         <mxCell id="IadNxtHCecKDnva7Nldo-34" value="&lt;h1&gt;规则引擎需要解决什么问题？&lt;/h1&gt;&lt;p&gt;1. 将影响预审批结果的要素矢量化&lt;br&gt;&lt;/p&gt;&lt;p&gt;2. 众多的矢量形成矢量库 =》 “矢量库”，“矢量管理平台”&lt;/p&gt;&lt;p&gt;3. 矢量库中的要素方便编排执行 =》“规则引擎”&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="10" width="450" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IadNxtHCecKDnva7Nldo-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;LiteFlow Demo&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="680" width="125" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
