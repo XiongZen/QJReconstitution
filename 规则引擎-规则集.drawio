@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T03:41:27.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-NzO506uUpuuOxiMfhuX" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T03:50:18.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nTuJysUDIApa0qIW57CR" version="23.0.0" type="github">
   <diagram name="第 1 页" id="rjAUkO0vNHYu7uV1Q9YC">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
         <mxCell id="kx4K6ubJ5nSAJbmqoORs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kx4K6ubJ5nSAJbmqoORs-5" target="kx4K6ubJ5nSAJbmqoORs-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kx4K6ubJ5nSAJbmqoORs-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-5" value="开始&lt;br&gt;2024.1.22" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="40" y="1240" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kx4K6ubJ5nSAJbmqoORs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kx4K6ubJ5nSAJbmqoORs-6" target="kx4K6ubJ5nSAJbmqoORs-8">
@@ -293,11 +293,49 @@
         <mxCell id="kx4K6ubJ5nSAJbmqoORs-10" value="理解DRL文件的结构，带入现有规则进行字符拼接调用" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kx4K6ubJ5nSAJbmqoORs-12" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kx4K6ubJ5nSAJbmqoORs-12" target="kx4K6ubJ5nSAJbmqoORs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kx4K6ubJ5nSAJbmqoORs-12" target="kx4K6ubJ5nSAJbmqoORs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-12" value="抽象DRL文件配置所需数据结构" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="1390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kx4K6ubJ5nSAJbmqoORs-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;规则引擎开发--》问题分解&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5" y="1200" width="175" height="30" as="geometry" />
+          <mxGeometry x="5" y="1200" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-15" value="2024.1.25" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kx4K6ubJ5nSAJbmqoORs-16" target="kx4K6ubJ5nSAJbmqoORs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-16" value="后端基础业务逻辑实现" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="1501" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kx4K6ubJ5nSAJbmqoORs-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-18" value="前端基本操作页面实现" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kx4K6ubJ5nSAJbmqoORs-20" target="kx4K6ubJ5nSAJbmqoORs-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-20" value="替换现有预审批项目功能" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kx4K6ubJ5nSAJbmqoORs-24" target="kx4K6ubJ5nSAJbmqoORs-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-24" value="明确后续规则修改添加动作" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="1630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kx4K6ubJ5nSAJbmqoORs-26" value="持续开发矢量，规则，规则集" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
