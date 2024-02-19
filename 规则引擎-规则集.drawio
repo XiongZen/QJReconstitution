@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T14:11:48.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="SfdiTAOTzjb21Kldym-R" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-19T14:23:29.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KYZoTeVXtMThRIJO2KWE" version="23.1.5" type="github">
   <diagram name="第 1 页" id="rjAUkO0vNHYu7uV1Q9YC">
     <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -697,6 +697,9 @@
         </mxCell>
         <mxCell id="OoXuaratGEwhdKkhLeUJ-7" value="规则文件版本" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OoXuaratGEwhdKkhLeUJ-1">
           <mxGeometry y="180" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OoXuaratGEwhdKkhLeUJ-8" value="多个规则位于一个“rule&quot;之间默认是”且“的关系，”或“可以通过定义多个单一的规则来实现相同的输出结果来实现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="540" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
