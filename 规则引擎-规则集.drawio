@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T08:08:02.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="E7wUa1VUTT_RqZTK_vPX" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-24T08:46:19.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Hb076KzjQaOEhDOuC6jz" version="23.1.5" type="github">
   <diagram name="第 1 页" id="rjAUkO0vNHYu7uV1Q9YC">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -758,8 +758,38 @@
         <mxCell id="Upnc863D0eL5Su7a7nY8-2" value="Drools 本身支持 rule Flow" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1095" y="2805" width="165" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-4" target="Upnc863D0eL5Su7a7nY8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Upnc863D0eL5Su7a7nY8-4" value="Drools 后来支持&amp;nbsp;BPMN2 语法" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1362.5" y="2810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-6" target="Upnc863D0eL5Su7a7nY8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-6" value="支持BPM2的前端包&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; background-color: rgb(255, 255, 255); text-underline-offset: 0.2rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start;&quot; rel=&quot;nofollow&quot; href=&quot;https://bpmn.io/&quot;&gt;bpmn.js&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1562.5" y="2810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-8" value="前端引用嵌入项目" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1440.75" y="3040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-10" target="Upnc863D0eL5Su7a7nY8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-10" target="Upnc863D0eL5Su7a7nY8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-10" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1583.5" y="2940" width="77.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-14" target="Upnc863D0eL5Su7a7nY8-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-14" value="后端定义 flow 分组，调用" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="3040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Upnc863D0eL5Su7a7nY8-16" value="规则中需要添加规则组，优先级" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="3180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
