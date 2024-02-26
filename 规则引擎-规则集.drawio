@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-24T08:46:19.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Hb076KzjQaOEhDOuC6jz" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T03:28:13.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="pT7114a-cdYcDbQLEjA9" version="23.1.6" type="github">
   <diagram name="第 1 页" id="rjAUkO0vNHYu7uV1Q9YC">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -554,16 +554,27 @@
           <mxGeometry x="260" y="2240" width="120" height="490" as="geometry" />
         </mxCell>
         <mxCell id="g0Gmd0aOENz3pgDN7ALH-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="g0Gmd0aOENz3pgDN7ALH-6" vertex="1">
-          <mxGeometry x="55" y="67.5" width="10" height="202.5" as="geometry" />
+          <mxGeometry x="55" y="67.5" width="10" height="312.5" as="geometry" />
         </mxCell>
         <mxCell id="g0Gmd0aOENz3pgDN7ALH-9" value="入参怎么定义？&lt;br&gt;出参怎么定义？" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="2360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="g0Gmd0aOENz3pgDN7ALH-10" value="规则" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="400" y="2240" width="90" height="300" as="geometry" />
+          <mxGeometry x="400" y="2240" width="90" height="380" as="geometry" />
         </mxCell>
         <mxCell id="g0Gmd0aOENz3pgDN7ALH-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="g0Gmd0aOENz3pgDN7ALH-10" vertex="1">
-          <mxGeometry x="38" y="78.75" width="10" height="171.25" as="geometry" />
+          <mxGeometry x="38" y="78.75" width="10" height="271.25" as="geometry" />
+        </mxCell>
+        <mxCell id="CtzNc6t3oPWH78zND594-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="g0Gmd0aOENz3pgDN7ALH-10">
+          <mxGeometry x="45" y="230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CtzNc6t3oPWH78zND594-8" value="Drools fireAll" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="CtzNc6t3oPWH78zND594-7" parent="g0Gmd0aOENz3pgDN7ALH-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="g0Gmd0aOENz3pgDN7ALH-12" value="变量" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="530" y="2240" width="60" height="300" as="geometry" />
@@ -588,12 +599,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="555" y="2417" as="sourcePoint" />
             <mxPoint x="444.5" y="2417" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g0Gmd0aOENz3pgDN7ALH-18" value="计算返回规则结果" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="438" y="2464" as="sourcePoint" />
-            <mxPoint x="319.5" y="2464" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MpOB8jpLRHp9J2seoTya-6" value="DRL文件-rule-动作" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -746,50 +751,58 @@
         <mxCell id="3-g0td0EvFhKR9R9mg43-18" value="在drools rule file 中 declare type ,&lt;br&gt;该类型包含所有的变量字段，调用规则引擎的时候根据入参传参来初始化该类，初始化完成后fire 引擎。" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="2130" width="340" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-1" target="Upnc863D0eL5Su7a7nY8-2">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Upnc863D0eL5Su7a7nY8-1" target="Upnc863D0eL5Su7a7nY8-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-1" value="想要规则功能操作的更绚烂可以考虑规则流" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-1" value="想要规则功能操作的更绚烂可以考虑规则流" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="2810" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-2" target="Upnc863D0eL5Su7a7nY8-4">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Upnc863D0eL5Su7a7nY8-2" target="Upnc863D0eL5Su7a7nY8-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-2" value="Drools 本身支持 rule Flow" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-2" value="Drools 本身支持 rule Flow" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1095" y="2805" width="165" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-4" target="Upnc863D0eL5Su7a7nY8-6">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Upnc863D0eL5Su7a7nY8-4" target="Upnc863D0eL5Su7a7nY8-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-4" value="Drools 后来支持&amp;nbsp;BPMN2 语法" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-4" value="Drools 后来支持&amp;nbsp;BPMN2 语法" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1362.5" y="2810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-6" target="Upnc863D0eL5Su7a7nY8-10">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Upnc863D0eL5Su7a7nY8-6" target="Upnc863D0eL5Su7a7nY8-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-6" value="支持BPM2的前端包&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; background-color: rgb(255, 255, 255); text-underline-offset: 0.2rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start;&quot; rel=&quot;nofollow&quot; href=&quot;https://bpmn.io/&quot;&gt;bpmn.js&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-6" value="支持BPM2的前端包&amp;nbsp;&lt;a style=&quot;box-sizing: border-box; background-color: rgb(255, 255, 255); text-underline-offset: 0.2rem; font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start;&quot; rel=&quot;nofollow&quot; href=&quot;https://bpmn.io/&quot;&gt;bpmn.js&lt;/a&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1562.5" y="2810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-8" value="前端引用嵌入项目" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-8" value="前端引用嵌入项目" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1440.75" y="3040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-10" target="Upnc863D0eL5Su7a7nY8-8">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Upnc863D0eL5Su7a7nY8-10" target="Upnc863D0eL5Su7a7nY8-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-10" target="Upnc863D0eL5Su7a7nY8-14">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Upnc863D0eL5Su7a7nY8-10" target="Upnc863D0eL5Su7a7nY8-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-10" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-10" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1583.5" y="2940" width="77.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Upnc863D0eL5Su7a7nY8-14" target="Upnc863D0eL5Su7a7nY8-16">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Upnc863D0eL5Su7a7nY8-14" target="Upnc863D0eL5Su7a7nY8-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-14" value="后端定义 flow 分组，调用" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-14" value="后端定义 flow 分组，调用" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1740" y="3040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Upnc863D0eL5Su7a7nY8-16" value="规则中需要添加规则组，优先级" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="Upnc863D0eL5Su7a7nY8-16" value="规则中需要添加规则组，优先级" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1740" y="3180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CtzNc6t3oPWH78zND594-9" value="计算返回规则结果" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0034" relative="1" as="geometry">
+            <mxPoint x="440" y="2550" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint x="320" y="2550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
