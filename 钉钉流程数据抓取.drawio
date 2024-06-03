@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T01:28:24.542Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="O-PwKmG3hYtA9CoxsBp7" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-03T01:42:31.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="HCVAMWcwWnEBtisFyWsP" version="24.4.13" type="github">
   <diagram name="Page-1" id="tkpV15WOsn24UhHXJDwQ">
     <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,8 +10,23 @@
         <mxCell id="s-xRmuep8owxC_aP-AfG-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="50" y="60" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-xRmuep8owxC_aP-AfG-2" target="s-xRmuep8owxC_aP-AfG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="s-xRmuep8owxC_aP-AfG-2" value="钉钉开放平台申请应用（获取appkey, appSecret）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="70" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-xRmuep8owxC_aP-AfG-4" target="s-xRmuep8owxC_aP-AfG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-4" value="获取钉钉访问Token" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-6" value="带上Token，根据流程代码processcode访问流程&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;ListProcessInstanceIdsRequest&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-8" value="钉钉开发平台的https://open-dev.dingtalk.com/apiExplorer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="205" width="200" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
