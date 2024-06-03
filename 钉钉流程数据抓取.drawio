@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-03T01:42:31.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="HCVAMWcwWnEBtisFyWsP" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-03T01:53:19.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="N8C5QY4U3YEgS1uHUE7i" version="24.4.13" type="github">
   <diagram name="Page-1" id="tkpV15WOsn24UhHXJDwQ">
     <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,11 +22,38 @@
         <mxCell id="s-xRmuep8owxC_aP-AfG-4" value="获取钉钉访问Token" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="s-xRmuep8owxC_aP-AfG-6" value="带上Token，根据流程代码processcode访问流程&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;ListProcessInstanceIdsRequest&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="405" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="s-xRmuep8owxC_aP-AfG-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-xRmuep8owxC_aP-AfG-6" target="s-xRmuep8owxC_aP-AfG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-6" value="带上Token，根据流程代码processcode访问流程,获取流程实例IDS&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;ListProcessInstanceIdsRequest&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="210" width="265" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s-xRmuep8owxC_aP-AfG-8" value="钉钉开发平台的https://open-dev.dingtalk.com/apiExplorer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="205" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-xRmuep8owxC_aP-AfG-9" target="s-xRmuep8owxC_aP-AfG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-9" value="根据流程实例ID获取流程实例对象" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="436.5" y="330" width="202" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-xRmuep8owxC_aP-AfG-11" target="s-xRmuep8owxC_aP-AfG-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-11" value="将流程对象序列化后存放在Mongodb" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s-xRmuep8owxC_aP-AfG-15" target="s-xRmuep8owxC_aP-AfG-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-15" value="解析JSON串得到所需字段" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-17" value="将字段值持久化到数据库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s-xRmuep8owxC_aP-AfG-19" value="每次获取距离当前时间120天内的所有流程实例ID" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
