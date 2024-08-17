@@ -68,7 +68,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-46" value="卡车之家" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="121" width="100" height="31" as="geometry" />
+          <mxGeometry x="865" y="121" width="100" height="31" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-48" target="H50GD9BVMyVxNFarJEvh-50">
           <mxGeometry relative="1" as="geometry" />
@@ -79,9 +79,6 @@
         <mxCell id="H50GD9BVMyVxNFarJEvh-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-50" target="H50GD9BVMyVxNFarJEvh-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-50" target="H50GD9BVMyVxNFarJEvh-54">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-50" value="获取方式" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1060" y="152" width="100" height="31" as="geometry" />
         </mxCell>
@@ -89,13 +86,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-52" value="定期抓取" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1243" y="238" width="100" height="31" as="geometry" />
+          <mxGeometry x="1247" y="106.5" width="100" height="31" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-54" value="外部购买" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1241" y="350" width="100" height="31" as="geometry" />
-        </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-56" target="H50GD9BVMyVxNFarJEvh-60">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-56" value="市场调研" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="871" y="362" width="100" height="31" as="geometry" />
@@ -144,6 +138,15 @@
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-92" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="820" width="50" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="H50GD9BVMyVxNFarJEvh-95" value="字段列表查询，字段越多，越详细；核定的价格越接近真实价格" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="800" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H50GD9BVMyVxNFarJEvh-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.37;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-50" target="H50GD9BVMyVxNFarJEvh-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H50GD9BVMyVxNFarJEvh-97" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;算法&lt;/h1&gt;&lt;p&gt;1. 简短匹配&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1067" y="660" width="180" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
