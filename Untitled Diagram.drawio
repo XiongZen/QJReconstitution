@@ -1,172 +1,181 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="lOxNYCTlGbAkdUG0Riqf">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1290" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="H50GD9BVMyVxNFarJEvh-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-9" target="H50GD9BVMyVxNFarJEvh-75">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H50GD9BVMyVxNFarJEvh-9" target="H50GD9BVMyVxNFarJEvh-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-9" value="客户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-9" value="客户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="865" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-15" value="新车核价" style="text;strokeColor=none;fillColor=none;html=1;fontSize=28;fontStyle=1;verticalAlign=middle;align=center;shadow=0;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-15" value="新车核价" style="text;strokeColor=none;fillColor=none;html=1;fontSize=28;fontStyle=1;verticalAlign=middle;align=center;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="420" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="341" width="50" height="559" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-19" value="影响新车价格的因素" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=default;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-19" value="影响新车价格的因素" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=default;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="270" y="330" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-20" value="目标：牵引车、自卸车价格波动在5000以内；&lt;div&gt;载货车在3000；挂车在1000；&lt;div&gt;专用车另议&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-20" value="目标：牵引车、自卸车价格波动在5000以内；&lt;div&gt;载货车在3000；挂车在1000；&lt;div&gt;专用车另议&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="230" width="270" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-21" value="公告型号" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-21" value="公告型号" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="57.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-23" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;p&gt;车辆品牌&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-23" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;p&gt;车辆品牌&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="107.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-24" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;p&gt;车系&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-24" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;p&gt;车系&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="157.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-25" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;p&gt;发动机型号&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-25" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;p&gt;发动机型号&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="217.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-26" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;p&gt;驱动&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-26" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;p&gt;驱动&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="267.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-27" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;马力&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-27" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;马力&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="313.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-29" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;燃料类型&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-29" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;燃料类型&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="363.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-32" value="投入产出比是否合适？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="130" height="30" as="geometry" />
+        <mxCell id="H50GD9BVMyVxNFarJEvh-32" value="投入产出比是否合适？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-33" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;排放标准&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-33" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;排放标准&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="413.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-35" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;货箱长度&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-35" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;货箱长度&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="465.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-37" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;区域&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-37" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;区域&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="512.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-39" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;新车指导价格&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-39" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;新车指导价格&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="562.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-41" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;其他配置/上装配置&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-41" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Source Han Sans CN&amp;quot;; text-align: left; vertical-align: top; font-size: 14px;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: top;&quot;&gt;&lt;p&gt;其他配置/上装配置&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="612.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-44" value="可能的数据来源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-44" value="可能的数据来源" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="40" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-46" target="H50GD9BVMyVxNFarJEvh-50">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H50GD9BVMyVxNFarJEvh-46" target="H50GD9BVMyVxNFarJEvh-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-46" value="卡车之家" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-46" value="卡车之家" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="865" y="121" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-48" target="H50GD9BVMyVxNFarJEvh-50">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="H50GD9BVMyVxNFarJEvh-48" target="H50GD9BVMyVxNFarJEvh-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-48" value="商车网" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-48" value="商车网" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="866" y="209" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-50" target="H50GD9BVMyVxNFarJEvh-52">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="H50GD9BVMyVxNFarJEvh-50" target="H50GD9BVMyVxNFarJEvh-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-50" value="获取方式" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-50" value="获取方式" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1060" y="152" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-52" target="H50GD9BVMyVxNFarJEvh-63">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H50GD9BVMyVxNFarJEvh-52" target="H50GD9BVMyVxNFarJEvh-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-52" value="定期抓取" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-52" value="定期抓取" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1247" y="106.5" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-54" value="外部购买" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-54" value="外部购买" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1241" y="350" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-56" value="市场调研" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RX6ak2MCFjK3Naa0i9RK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-56" target="H50GD9BVMyVxNFarJEvh-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H50GD9BVMyVxNFarJEvh-56" value="市场调研" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="871" y="362" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-58" target="H50GD9BVMyVxNFarJEvh-60">
+        <mxCell id="RX6ak2MCFjK3Naa0i9RK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-58" target="H50GD9BVMyVxNFarJEvh-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-58" value="经销商处购买" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-58" value="经销商处购买" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="870" y="442" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-60" value="固定字段，系统页面导入" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-60" value="固定字段，系统页面导入" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1247" y="480" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-63" value="程序写入" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-63" value="程序写入" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1423" y="238" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.44;entryY=-0.129;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-54" target="H50GD9BVMyVxNFarJEvh-60">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.44;entryY=-0.129;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="H50GD9BVMyVxNFarJEvh-54" target="H50GD9BVMyVxNFarJEvh-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-72">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H50GD9BVMyVxNFarJEvh-72" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1530" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-99" value="数据查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H50GD9BVMyVxNFarJEvh-98">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-99" value="数据查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="H50GD9BVMyVxNFarJEvh-98" vertex="1" connectable="0">
           <mxGeometry x="0.0868" y="4" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-72" value="车型数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-72" value="车型数据库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1480" y="400" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-63" target="H50GD9BVMyVxNFarJEvh-72">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="H50GD9BVMyVxNFarJEvh-63" target="H50GD9BVMyVxNFarJEvh-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-60" target="H50GD9BVMyVxNFarJEvh-72">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="H50GD9BVMyVxNFarJEvh-60" target="H50GD9BVMyVxNFarJEvh-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-75" value="查询计价" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-75" value="查询计价" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="335" y="880" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-79" value="登录web系统查询" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-79" value="登录web系统查询" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="520" y="880" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-82" value="小程序查询" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-82" value="小程序查询" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="520" y="800" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-85" value="系统接口对接，REST方式调用" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-85" value="系统接口对接，REST方式调用" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="520" y="960" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-89" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-89" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="68.5" width="50" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-90" value="保险数据对接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-90" value="保险数据对接" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="871" y="545" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-92" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-92" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="820" width="50" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-95" value="字段列表查询，字段越多，越详细；核定的价格越接近真实价格" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-95" value="字段列表查询，字段越多，越详细；核定的价格越接近真实价格" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="800" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.37;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-50" target="H50GD9BVMyVxNFarJEvh-54">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.37;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="H50GD9BVMyVxNFarJEvh-50" target="H50GD9BVMyVxNFarJEvh-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-97">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H50GD9BVMyVxNFarJEvh-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="710" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-101" value="返回给用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H50GD9BVMyVxNFarJEvh-100">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-101" value="返回给用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="H50GD9BVMyVxNFarJEvh-100" vertex="1" connectable="0">
           <mxGeometry x="0.2281" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-97" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;算法&lt;/h1&gt;&lt;p&gt;1. 简单匹配&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-97" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;算法&lt;/h1&gt;&lt;p&gt;1. 简单匹配&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1400" y="860" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RX6ak2MCFjK3Naa0i9RK-1" value="燃油车，LNG车" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RX6ak2MCFjK3Naa0i9RK-5" value="..." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="871" y="622" width="100" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
