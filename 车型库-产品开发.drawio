@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="lOxNYCTlGbAkdUG0Riqf">
-    <mxGraphModel dx="1290" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="270" y="865" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-15" value="新车核价" style="text;strokeColor=none;fillColor=none;html=1;fontSize=28;fontStyle=1;verticalAlign=middle;align=center;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="420" width="100" height="40" as="geometry" />
+          <mxGeometry x="90" y="592.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="341" width="50" height="559" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="270" y="330" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-20" value="目标：牵引车、自卸车价格波动在5000以内；&lt;div&gt;载货车在3000；挂车在1000；&lt;div&gt;专用车另议&lt;/div&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="230" width="270" height="130" as="geometry" />
+          <mxGeometry x="10" y="180" width="270" height="130" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-21" value="公告型号" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="57.5" width="120" height="30" as="geometry" />
@@ -91,13 +91,13 @@
         <mxCell id="H50GD9BVMyVxNFarJEvh-54" value="外部购买" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1241" y="350" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="RX6ak2MCFjK3Naa0i9RK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-56" target="H50GD9BVMyVxNFarJEvh-60">
+        <mxCell id="RX6ak2MCFjK3Naa0i9RK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H50GD9BVMyVxNFarJEvh-56" target="H50GD9BVMyVxNFarJEvh-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-56" value="市场调研" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="871" y="362" width="100" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="RX6ak2MCFjK3Naa0i9RK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H50GD9BVMyVxNFarJEvh-58" target="H50GD9BVMyVxNFarJEvh-60">
+        <mxCell id="RX6ak2MCFjK3Naa0i9RK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="H50GD9BVMyVxNFarJEvh-58" target="H50GD9BVMyVxNFarJEvh-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-58" value="经销商处购买" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -171,11 +171,20 @@
         <mxCell id="H50GD9BVMyVxNFarJEvh-97" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;算法&lt;/h1&gt;&lt;p&gt;1. 简单匹配&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1400" y="860" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RX6ak2MCFjK3Naa0i9RK-1" value="燃油车，LNG车" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="RX6ak2MCFjK3Naa0i9RK-1" value="燃油车，LNG车" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="10" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RX6ak2MCFjK3Naa0i9RK-5" value="..." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RX6ak2MCFjK3Naa0i9RK-5" value="..." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="871" y="622" width="100" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="W03_-dHaSm5QZ826xwIY-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1266" y="77" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W03_-dHaSm5QZ826xwIY-2" value="目标客群" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1051" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W03_-dHaSm5QZ826xwIY-4" value="商用车融资租赁新车核价" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="535" y="1051" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
