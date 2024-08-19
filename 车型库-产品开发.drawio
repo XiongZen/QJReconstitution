@@ -140,7 +140,7 @@
         <mxCell id="H50GD9BVMyVxNFarJEvh-82" value="小程序查询" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="520" y="800" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H50GD9BVMyVxNFarJEvh-85" value="系统接口对接，REST方式调用" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="H50GD9BVMyVxNFarJEvh-85" value="系统接口对接，RESTful方式调用" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="520" y="960" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H50GD9BVMyVxNFarJEvh-89" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
@@ -181,10 +181,22 @@
           <mxGeometry x="1266" y="77" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W03_-dHaSm5QZ826xwIY-2" value="目标客群" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="335" y="1051" width="120" height="30" as="geometry" />
+          <mxGeometry x="350" y="1119" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W03_-dHaSm5QZ826xwIY-4" value="商用车融资租赁新车核价" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="535" y="1051" width="120" height="30" as="geometry" />
+          <mxGeometry x="520" y="1110" width="145" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="W03_-dHaSm5QZ826xwIY-7" value="痛点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="980" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W03_-dHaSm5QZ826xwIY-8" value="1. 商用车融资租赁套贷、多贷" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W03_-dHaSm5QZ826xwIY-7">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W03_-dHaSm5QZ826xwIY-9" value="2. 个人买车询价" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W03_-dHaSm5QZ826xwIY-7">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W03_-dHaSm5QZ826xwIY-10" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W03_-dHaSm5QZ826xwIY-7">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
