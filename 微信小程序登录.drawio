@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="haXZpG6AN5WhQmOplLyw-1" value="小程序" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="70" y="100" width="100" height="780" as="geometry" />
+          <mxGeometry x="70" y="100" width="100" height="900" as="geometry" />
         </mxCell>
         <mxCell id="haXZpG6AN5WhQmOplLyw-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="haXZpG6AN5WhQmOplLyw-1">
           <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
@@ -19,7 +19,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="haXZpG6AN5WhQmOplLyw-2" value="我司后端服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="310" y="100" width="100" height="780" as="geometry" />
+          <mxGeometry x="310" y="100" width="100" height="900" as="geometry" />
         </mxCell>
         <mxCell id="haXZpG6AN5WhQmOplLyw-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="haXZpG6AN5WhQmOplLyw-2">
           <mxGeometry x="45" y="320" width="10" height="70" as="geometry" />
@@ -30,6 +30,18 @@
             <Array as="points">
               <mxPoint x="80" y="300" />
               <mxPoint x="80" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haXZpG6AN5WhQmOplLyw-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="haXZpG6AN5WhQmOplLyw-2">
+          <mxGeometry x="45" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="haXZpG6AN5WhQmOplLyw-18" value="表单内容+ Openid 落库" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="haXZpG6AN5WhQmOplLyw-17" parent="haXZpG6AN5WhQmOplLyw-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="580" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="580" />
+              <mxPoint x="80" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -83,6 +95,24 @@
             <mxPoint x="620.5" y="639" as="sourcePoint" />
             <mxPoint x="360" y="639" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haXZpG6AN5WhQmOplLyw-19" value="返回注册成功，给Token" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="haXZpG6AN5WhQmOplLyw-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="358" y="800" as="sourcePoint" />
+            <mxPoint x="197.5" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haXZpG6AN5WhQmOplLyw-20" value="携带Token 请求业务数据" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="haXZpG6AN5WhQmOplLyw-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="120" y="840" as="sourcePoint" />
+            <mxPoint x="200" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="haXZpG6AN5WhQmOplLyw-21" value="返回业务数据" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="haXZpG6AN5WhQmOplLyw-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="358" y="880" as="sourcePoint" />
+            <mxPoint x="237.5" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
