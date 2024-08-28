@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="ZZaGF3duLCdg7c9FFZwx">
-    <mxGraphModel dx="2261" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,14 +134,93 @@
         <mxCell id="bShVGE-KkJZsSp7x3fK_-43" value="5.借贷账户，最近5年内历史表现信息，还款状态为 “D”，“Z”，“B”，返回&quot;融资额≤车价的70%，且在进件环节上传贷款正常还款的流水&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-38">
           <mxGeometry y="210" width="380" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bShVGE-KkJZsSp7x3fK_-44" target="bShVGE-KkJZsSp7x3fK_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-44" value="跑永鸿兴规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bShVGE-KkJZsSp7x3fK_-46" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bShVGE-KkJZsSp7x3fK_-46" target="bShVGE-KkJZsSp7x3fK_-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-46" value="获取永鸿兴签约链接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-52" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;针对永鸿兴数据规则&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="680" y="10" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-53" value="更新预审批结果" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bShVGE-KkJZsSp7x3fK_-55" target="bShVGE-KkJZsSp7x3fK_-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-55" value="跑百融汇法规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bShVGE-KkJZsSp7x3fK_-57" target="bShVGE-KkJZsSp7x3fK_-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-61" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bShVGE-KkJZsSp7x3fK_-60">
+          <mxGeometry x="0.0133" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bShVGE-KkJZsSp7x3fK_-57" target="bShVGE-KkJZsSp7x3fK_-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-64" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bShVGE-KkJZsSp7x3fK_-63">
+          <mxGeometry x="-0.2622" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-57" value="百融汇法是否有最近记录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-59" value="1.跑汇法规则&lt;div&gt;2.跑百融规则&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-62" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-65" value="汇法-涉诉-拒绝规则" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="400" width="400" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-66" value="1.裁判文书诉讼地位包含&quot;罪犯&quot; ||&quot;被告&quot;|| &quot;债务人&quot; ||&quot;罪犯人&quot; || &quot;被告人&quot; || &quot;一审被告&quot; ||&quot;被执行人&quot; || &quot;原仲裁被申请人&quot; || &quot;请求人&quot;，审结日期在最近三年内，如果&lt;font color=&quot;#ff3333&quot;&gt;网站状态&lt;/font&gt;不为空；返回 空对象" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-65">
+          <mxGeometry y="30" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-69" value="2.裁判文书诉讼地位包含&quot;罪犯&quot; ||&quot;被告&quot;|| &quot;债务人&quot; ||&quot;罪犯人&quot; || &quot;被告人&quot; || &quot;一审被告&quot; ||&quot;被执行人&quot; || &quot;原仲裁被申请人&quot; || &quot;请求人&quot;，审结日期在最近三年内，如果&lt;font color=&quot;#ff3333&quot;&gt;异议申诉状态&lt;/font&gt;不为空；返回&amp;nbsp;&quot;存在涉诉案件拒绝（作为被告案件）。&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-65">
+          <mxGeometry y="90" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-70" value="3.裁判文书诉讼地位包含&quot;罪犯&quot; ||&quot;被告&quot;|| &quot;债务人&quot; ||&quot;罪犯人&quot; || &quot;被告人&quot; || &quot;一审被告&quot; ||&quot;被执行人&quot; || &quot;原仲裁被申请人&quot; || &quot;请求人&quot;，审结日期在最近三年内，如果&lt;font color=&quot;#ff6666&quot;&gt;事件履行状态&lt;/font&gt;不为空；返回&amp;nbsp;&quot;存在涉诉案件拒绝（作为被告案件）。&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-65">
+          <mxGeometry y="150" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-71" value="4.裁判文书诉讼地位包含&quot;罪犯&quot; ||&quot;被告&quot;|| &quot;债务人&quot; ||&quot;罪犯人&quot; || &quot;被告人&quot; || &quot;一审被告&quot; ||&quot;被执行人&quot; || &quot;原仲裁被申请人&quot; || &quot;请求人&quot;，审结日期在最近三年内，如果&lt;font color=&quot;#ff6666&quot;&gt;信用修复状态&lt;/font&gt;不为空；返回&amp;nbsp;&quot;存在涉诉案件拒绝（作为被告案件）。&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-65">
+          <mxGeometry y="210" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-72" value="4.裁判文书诉讼地位包含&quot;罪犯&quot; ||&quot;被告&quot;|| &quot;债务人&quot; ||&quot;罪犯人&quot; || &quot;被告人&quot; || &quot;一审被告&quot; ||&quot;被执行人&quot; || &quot;原仲裁被申请人&quot; || &quot;请求人&quot;，涉案金额超过5000；返回&amp;nbsp;&quot;存在涉诉案件拒绝（作为被告案件）。&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-65">
+          <mxGeometry y="270" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-67" value="5.审判文书同裁判判断1，2，3，4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-65">
+          <mxGeometry y="330" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-73" value="汇法-失信名单" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="800" width="380" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-74" value="1.执行公开命中，返回&quot;借款人命中失信被执行。&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-73">
+          <mxGeometry y="30" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-75" value="2.失信被执行人命中，返回&quot;借款人命中失信被执行。&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-73">
+          <mxGeometry y="60" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-76" value="3.限制高消费命中，返回&quot;借款人命中失信被执行。&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-73">
+          <mxGeometry y="90" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-77" value="3.限制出入境命中，返回&quot;借款人命中失信被执行。&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-73">
+          <mxGeometry y="120" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-78" value="3.终本案件命中，返回&quot;借款人命中失信被执行。&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-73">
+          <mxGeometry y="150" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
