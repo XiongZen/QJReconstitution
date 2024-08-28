@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Page-1" id="ZZaGF3duLCdg7c9FFZwx">
-    <mxGraphModel dx="1877" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="10" width="520" height="1310" as="geometry" />
+        </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bShVGE-KkJZsSp7x3fK_-1" target="bShVGE-KkJZsSp7x3fK_-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -16,6 +19,22 @@
         <mxCell id="bShVGE-KkJZsSp7x3fK_-2" value="获取客户三要素：姓名、身份证、电话" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bShVGE-KkJZsSp7x3fK_-6" target="bShVGE-KkJZsSp7x3fK_-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-48" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bShVGE-KkJZsSp7x3fK_-45">
+          <mxGeometry x="-0.4533" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bShVGE-KkJZsSp7x3fK_-6" target="bShVGE-KkJZsSp7x3fK_-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-49" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bShVGE-KkJZsSp7x3fK_-47">
+          <mxGeometry x="-0.6567" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-6" value="是否存在最近查询记录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="270" width="80" height="80" as="geometry" />
         </mxCell>
@@ -23,16 +42,16 @@
           <mxGeometry x="-100" y="150" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-9" value="账户数量规则" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="120" width="310" height="140" as="geometry" />
+          <mxGeometry x="640" y="40" width="310" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="bShVGE-KkJZsSp7x3fK_-10" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;1.&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;非循环贷账户+循环额度下分账户&lt;/span&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre; background-color: rgb(255, 255, 255);&quot;&gt;+循环贷账户+贷记卡账户 =》 total&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-9">
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-10" value="1.&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;非循环贷账户+循环额度下分账户&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; white-space: pre;&quot;&gt;+循环贷账户+贷记卡账户 =》 total&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-9">
           <mxGeometry y="30" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-11" value="2.当借贷账户基本信息list为空 ,且 total == 0 的情况下，设置有条件通过提示：&lt;font style=&quot;font-size: 12px;&quot;&gt;“&lt;span style=&quot;font-family: 宋体, monospace;&quot;&gt;增加&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;20%&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace;&quot;&gt;首付&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace;&quot;&gt;降低&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;20%&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace;&quot;&gt;融资额。”，设置最高贷款比例、最低贷款比例为0.1&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-9">
           <mxGeometry y="70" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-13" value="账户-业务种类规则" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="320" width="460" height="180" as="geometry" />
+          <mxGeometry x="640" y="200" width="460" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-14" value="1.账户类型为“D1”，返回&quot;逾期&quot;&quot;呆账&quot;&quot;转出&quot; &quot;担保物不足&quot;&quot;强制平仓&quot; &quot;司法追偿&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-13">
           <mxGeometry y="30" width="460" height="30" as="geometry" />
@@ -50,7 +69,7 @@
           <mxGeometry y="150" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-19" value="代偿记录拒绝规则" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="560" width="460" height="220" as="geometry" />
+          <mxGeometry x="640" y="400" width="460" height="220" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-20" value="1.存在被追偿汇总信息，且余额大于10000" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-19">
           <mxGeometry y="30" width="460" height="30" as="geometry" />
@@ -68,7 +87,7 @@
           <mxGeometry y="190" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-25" value="五级分类规则" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="840" width="370" height="150" as="geometry" />
+          <mxGeometry x="640" y="640" width="370" height="150" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-26" value="1. 相关还款责任信息，命中“次级”、“可疑”、“损失”直接返回" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-25">
           <mxGeometry y="30" width="370" height="30" as="geometry" />
@@ -83,22 +102,46 @@
           <mxGeometry y="120" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-30" value="征信查询原因规则" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1030" width="370" height="100" as="geometry" />
+          <mxGeometry x="640" y="820" width="370" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bShVGE-KkJZsSp7x3fK_-31" value="1.90天内，查询原因命中“贷款审批”或“融资审批”，当次数&amp;gt;10 返回 “多头借贷拒绝”" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-30">
           <mxGeometry y="30" width="370" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="bShVGE-KkJZsSp7x3fK_-34" value="借贷账户-连三累六" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1160" width="410" height="120" as="geometry" />
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-34" value="借贷账户-连三累六规则" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="940" width="410" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="bShVGE-KkJZsSp7x3fK_-35" value="1.命中3，7 有条件通过，返回：&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt; background-color: rgb(30, 31, 34); color: rgb(106, 171, 115);&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt; background-color: rgb(30, 31, 34); color: rgb(106, 171, 115); font-family: 宋体, monospace;&quot;&gt;逾期超限，融资额&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt; background-color: rgb(30, 31, 34); color: rgb(106, 171, 115);&quot;&gt;≤&lt;/span&gt;&lt;span style=&quot;font-size: 11.3pt; background-color: rgb(30, 31, 34); color: rgb(106, 171, 115); font-family: 宋体, monospace;&quot;&gt;车价&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 11.3pt; background-color: rgb(30, 31, 34); color: rgb(106, 171, 115);&quot;&gt;70%&quot;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-34">
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-35" value="1.近两年，命中3，7 有条件通过，返回：&lt;font style=&quot;font-size: 12px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace;&quot;&gt;逾期超限，融资额&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;≤&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace;&quot;&gt;车价&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;70%&quot;&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-34">
           <mxGeometry y="30" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bShVGE-KkJZsSp7x3fK_-36" value="2." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-34">
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-36" value="2.近两年，命中1，2，达到6次或者连续三次，返回拒绝" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-34">
           <mxGeometry y="60" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bShVGE-KkJZsSp7x3fK_-37" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-34">
-          <mxGeometry y="90" width="410" height="30" as="geometry" />
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-38" value="信贷交易违约信息规则" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1060" width="380" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-39" value="1.相关还款责任信息，还款状态为 “D”，“Z”，“B”，且还款金额大于10000，返回&quot;信贷交易违约信息拒绝&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-38">
+          <mxGeometry y="30" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-40" value="2.2年内借贷账户，预期总额》=10000，返回&quot;信贷交易违约信息拒绝&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-38">
+          <mxGeometry y="80" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-41" value="3.最新表现信息，还款状态为 “D”，“Z”，“B”，返回&quot;信贷交易违约信息拒绝&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-38">
+          <mxGeometry y="110" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-42" value="4.相关还款责任信息，还款状态为 “D”，“Z”，“B”，返回&quot;融资额≤车价的70%，且在进件环节上传贷款正常还款的流水&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-38">
+          <mxGeometry y="160" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-43" value="5.借贷账户，最近5年内历史表现信息，还款状态为 “D”，“Z”，“B”，返回&quot;融资额≤车价的70%，且在进件环节上传贷款正常还款的流水&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="bShVGE-KkJZsSp7x3fK_-38">
+          <mxGeometry y="210" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-44" value="跑永鸿兴规则" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-46" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bShVGE-KkJZsSp7x3fK_-52" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;针对永鸿兴数据规则&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="10" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
