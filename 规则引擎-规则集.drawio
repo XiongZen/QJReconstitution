@@ -1206,7 +1206,7 @@
           <mxGeometry x="-170" y="395" width="150" height="105" as="geometry" />
         </mxCell>
         <mxCell id="SQcpLNXsXeb3V4MtJKv6-8" value="预审批结果" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="550" width="140" height="90" as="geometry" />
+          <mxGeometry x="-210" y="520" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SQcpLNXsXeb3V4MtJKv6-12" value="&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:12.0pt;&lt;br/&gt;line-height:150%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;&lt;br/&gt;mso-bidi-language:AR-SA;mso-bidi-font-weight:bold&quot;&gt;交易流水号&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SQcpLNXsXeb3V4MtJKv6-8">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -1215,7 +1215,10 @@
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SQcpLNXsXeb3V4MtJKv6-13" value="{&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;status&quot;: ”420...&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message&quot;:&quot;string&quot;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;data&quot;:[]&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="690" width="130" height="80" as="geometry" />
+          <mxGeometry x="-10" y="525" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SQcpLNXsXeb3V4MtJKv6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SQcpLNXsXeb3V4MtJKv6-10" target="SQcpLNXsXeb3V4MtJKv6-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
