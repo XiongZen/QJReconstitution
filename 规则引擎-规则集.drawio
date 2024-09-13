@@ -1049,12 +1049,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="71_xYn0jv1HruzZOxcz8-37" value="返回规则引擎结果值" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="71_xYn0jv1HruzZOxcz8-5" target="71_xYn0jv1HruzZOxcz8-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="410" as="sourcePoint" />
-            <mxPoint x="230" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="71_xYn0jv1HruzZOxcz8-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="71_xYn0jv1HruzZOxcz8-5" vertex="1">
           <mxGeometry x="95" y="460" width="10" height="40" as="geometry" />
         </mxCell>
@@ -1088,7 +1082,7 @@
           <mxGeometry x="120" y="585" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="SQcpLNXsXeb3V4MtJKv6-7" value="&lt;ol&gt;&lt;li&gt;考虑到通用性这里可能不太适合回调&lt;/li&gt;&lt;li&gt;如果回调的话，在场景表的属性里加上回调地址，应该也可以实现&lt;/li&gt;&lt;li&gt;不回调的话就只能让客户端轮询，来得到结果&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="71_xYn0jv1HruzZOxcz8-5">
-          <mxGeometry x="120" y="625" width="240" height="80" as="geometry" />
+          <mxGeometry x="120" y="625" width="240" height="115" as="geometry" />
         </mxCell>
         <mxCell id="71_xYn0jv1HruzZOxcz8-20" value="同盾规则引擎" style="swimlane;startSize=20;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" parent="71_xYn0jv1HruzZOxcz8-2" vertex="1">
           <mxGeometry x="620" y="20" width="100" height="740" as="geometry" />
@@ -1119,6 +1113,12 @@
         <mxCell id="71_xYn0jv1HruzZOxcz8-45" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;" parent="71_xYn0jv1HruzZOxcz8-2" source="71_xYn0jv1HruzZOxcz8-43" target="71_xYn0jv1HruzZOxcz8-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="360" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="71_xYn0jv1HruzZOxcz8-37" value="返回规则引擎结果值" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" parent="71_xYn0jv1HruzZOxcz8-2" target="71_xYn0jv1HruzZOxcz8-17" edge="1" source="71_xYn0jv1HruzZOxcz8-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="430" as="sourcePoint" />
+            <mxPoint x="490" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PPU3C3Fa2qekVzSwsmkX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PPU3C3Fa2qekVzSwsmkX-2" target="PPU3C3Fa2qekVzSwsmkX-3" edge="1">
@@ -1190,7 +1190,7 @@
         <mxCell id="VGTnY1eScvIQg2FAmzwh-7" value="&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;查询时间&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VGTnY1eScvIQg2FAmzwh-1" vertex="1">
           <mxGeometry y="180" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VGTnY1eScvIQg2FAmzwh-8" value="&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:12.0pt;&lt;br/&gt;line-height:150%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;&lt;br/&gt;mso-bidi-language:AR-SA;mso-bidi-font-weight:bold&quot;&gt;信加应用交易流水号&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VGTnY1eScvIQg2FAmzwh-1" vertex="1">
+        <mxCell id="VGTnY1eScvIQg2FAmzwh-8" value="&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:12.0pt;&lt;br/&gt;line-height:150%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;&lt;br/&gt;mso-bidi-language:AR-SA;mso-bidi-font-weight:bold&quot;&gt;交易流水号&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VGTnY1eScvIQg2FAmzwh-1" vertex="1">
           <mxGeometry y="210" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VGTnY1eScvIQg2FAmzwh-10" value="&lt;span style=&quot;font-family: 宋体; font-size: 14px;&quot;&gt;信加&lt;/span&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;查询结果&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="VGTnY1eScvIQg2FAmzwh-1" vertex="1">
@@ -1204,6 +1204,18 @@
         </mxCell>
         <mxCell id="SQcpLNXsXeb3V4MtJKv6-4" value="&lt;ol&gt;&lt;li&gt;信加个人查询&lt;/li&gt;&lt;li&gt;规则变量计算&lt;/li&gt;&lt;li&gt;调用同盾规则&lt;/li&gt;&lt;li&gt;百融&lt;/li&gt;&lt;li&gt;汇发&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="-170" y="395" width="150" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="SQcpLNXsXeb3V4MtJKv6-8" value="预审批结果" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="550" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SQcpLNXsXeb3V4MtJKv6-12" value="&lt;span style=&quot;font-size:10.5pt;mso-bidi-font-size:12.0pt;&lt;br/&gt;line-height:150%;font-family:宋体;mso-ascii-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-hansi-font-family:&amp;quot;Times New Roman&amp;quot;;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-font-kerning:1.0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;&lt;br/&gt;mso-bidi-language:AR-SA;mso-bidi-font-weight:bold&quot;&gt;交易流水号&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SQcpLNXsXeb3V4MtJKv6-8">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQcpLNXsXeb3V4MtJKv6-10" value="审批结果(JSON)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SQcpLNXsXeb3V4MtJKv6-8">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SQcpLNXsXeb3V4MtJKv6-13" value="{&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;status&quot;: ”420...&quot;,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;message&quot;:&quot;string&quot;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;data&quot;:[]&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="690" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
