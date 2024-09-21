@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.15">
   <diagram name="第 1 页" id="rjAUkO0vNHYu7uV1Q9YC">
     <mxGraphModel dx="2944" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -887,7 +887,7 @@
           <mxGeometry x="-1240" y="400" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="de9Ml6Z2nhjBICv5ZsnD-24" value="业务场景变量组" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1520" y="730" width="140" height="120" as="geometry" />
+          <mxGeometry x="-1520" y="690" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="de9Ml6Z2nhjBICv5ZsnD-25" value="业务场景ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="de9Ml6Z2nhjBICv5ZsnD-24" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -1217,19 +1217,19 @@
         <mxCell id="SQcpLNXsXeb3V4MtJKv6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SQcpLNXsXeb3V4MtJKv6-10" target="SQcpLNXsXeb3V4MtJKv6-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F6oP_sqm6i7mchvUuh24-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F6oP_sqm6i7mchvUuh24-1" target="F6oP_sqm6i7mchvUuh24-2">
+        <mxCell id="F6oP_sqm6i7mchvUuh24-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F6oP_sqm6i7mchvUuh24-1" target="F6oP_sqm6i7mchvUuh24-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F6oP_sqm6i7mchvUuh24-1" value="1.无需处理的变量，直接通过前台就可以传递的。如：身份证省，年龄。Map&amp;lt;String, String&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="F6oP_sqm6i7mchvUuh24-1" value="1.无需处理的变量，直接通过前台就可以传递的。如：身份证省，年龄。Map&amp;lt;String, String&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="17" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="F6oP_sqm6i7mchvUuh24-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F6oP_sqm6i7mchvUuh24-2" target="F6oP_sqm6i7mchvUuh24-5">
+        <mxCell id="F6oP_sqm6i7mchvUuh24-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="F6oP_sqm6i7mchvUuh24-2" target="F6oP_sqm6i7mchvUuh24-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F6oP_sqm6i7mchvUuh24-2" value="2.有一定计算量的变量，通过SQL查询解决" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="F6oP_sqm6i7mchvUuh24-2" value="2.有一定计算量的变量，通过SQL查询解决" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="109" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F6oP_sqm6i7mchvUuh24-5" value="3. “场景策略”确认必传参数，非必传参数，--》 如果参数不同则需要新建接口 ；--》 接口中规定的字段要么必传，要么有默认值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="F6oP_sqm6i7mchvUuh24-5" value="3. “场景策略”确认必传参数，非必传参数，--》 如果参数不同则需要新建接口 ；--》 接口中规定的字段要么必传，要么有默认值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1180" y="172" width="160" height="88" as="geometry" />
         </mxCell>
       </root>
