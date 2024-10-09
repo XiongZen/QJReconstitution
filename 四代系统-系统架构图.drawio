@@ -308,7 +308,7 @@
         <mxCell id="5_CGpWIlsMld0xK8grC9-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=0.3;" parent="1" source="5_CGpWIlsMld0xK8grC9-57" target="FX585D-CUCmhd4H3JHvQ-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5_CGpWIlsMld0xK8grC9-57" value="永鸿兴（征信）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" parent="1" vertex="1">
+        <mxCell id="5_CGpWIlsMld0xK8grC9-57" value="人民银行征信中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" parent="1" vertex="1">
           <mxGeometry x="913" y="1765.35" width="120" height="41" as="geometry" />
         </mxCell>
         <mxCell id="5_CGpWIlsMld0xK8grC9-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=0.3;" parent="1" source="5_CGpWIlsMld0xK8grC9-58" target="FX585D-CUCmhd4H3JHvQ-98" edge="1">
