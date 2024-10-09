@@ -97,7 +97,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FX585D-CUCmhd4H3JHvQ-72" value="车型库(cardata)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://keithstruckservice.com/wp-content/uploads/2020/07/cropped-cropped-favicon-wordpress-01.png;" parent="1" vertex="1">
-          <mxGeometry x="479.99999999999994" y="1524.3299999999997" width="78.43" height="78.43" as="geometry" />
+          <mxGeometry x="494.75999999999993" y="1527.1099999999997" width="78.43" height="78.43" as="geometry" />
         </mxCell>
         <mxCell id="5_CGpWIlsMld0xK8grC9-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="FX585D-CUCmhd4H3JHvQ-74" target="FX585D-CUCmhd4H3JHvQ-96" edge="1">
           <mxGeometry relative="1" as="geometry">
