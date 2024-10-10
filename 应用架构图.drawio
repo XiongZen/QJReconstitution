@@ -59,7 +59,7 @@
           <mxGeometry x="390" y="270" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AlccEWdWpVK10mBaxxzJ-26" value="影像件存储&lt;br&gt;抽象存储路径&lt;div&gt;(local file system, huawei OBS,)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="390" width="130" height="60" as="geometry" />
+          <mxGeometry x="290" y="400" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AlccEWdWpVK10mBaxxzJ-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="240" width="90" height="320" as="geometry" />
@@ -69,6 +69,33 @@
         </mxCell>
         <mxCell id="AlccEWdWpVK10mBaxxzJ-30" value="支持多种登录方式&lt;br&gt;（用户密码，手机短信，微信支付宝验证）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="420" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-31" value="定时任务配置&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-33" value="数据字典&lt;br&gt;码值参照" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlccEWdWpVK10mBaxxzJ-35" target="AlccEWdWpVK10mBaxxzJ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-35" value="打印模板&lt;div&gt;电子签&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AlccEWdWpVK10mBaxxzJ-39" target="AlccEWdWpVK10mBaxxzJ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-39" value="VUE" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-40" value="Uniapp" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="353" y="150" width="67" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-42" value="UI框架" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-45" value="手机短信发送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
