@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="IWNdeSaPfpGj221hFAfy">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-2" value="用户端" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-3" value="web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-4" value="app" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="400" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-8" value="基础服务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-10" value="数据库" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-11" value="用户中心" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-12" value="授权模型&lt;div&gt;RBAC&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-13" value="RDBMS&lt;div&gt;（Mysql，Oracle）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-14" value="缓存数据库&lt;div&gt;Redis&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-15" value="搜索引擎&lt;div&gt;ElasticSearch&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-16" value="授权鉴权&lt;br&gt;Spring Security" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-20" value="工作流引擎&lt;div&gt;定制flowable&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="490" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-22" value="应用监控&lt;div&gt;定制Spring Boot Admin&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="403" y="490" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-24" value="网关路由&lt;div&gt;Spring Gateway&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="270" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-26" value="影像件存储&lt;br&gt;抽象存储路径&lt;div&gt;(local file system, huawei OBS,)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="240" width="90" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-29" value="基于领域驱动设计方法论的代码规范" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="258" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AlccEWdWpVK10mBaxxzJ-30" value="支持多种登录方式&lt;br&gt;（用户密码，手机短信，微信支付宝验证）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="420" width="100" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
