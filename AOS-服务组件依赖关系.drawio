@@ -453,7 +453,7 @@
         <mxCell id="msZy4VPRfTfWuvWsuMTi-171" value="aos-boot-ap" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="1802" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="msZy4VPRfTfWuvWsuMTi-172" value="aos-boot-web" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="msZy4VPRfTfWuvWsuMTi-171" vertex="1">
+        <mxCell id="msZy4VPRfTfWuvWsuMTi-172" value="aos-boot-web" style="text;strokeColor=none;fillColor=#00CC00;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="msZy4VPRfTfWuvWsuMTi-171" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="msZy4VPRfTfWuvWsuMTi-173" value="lombok" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="msZy4VPRfTfWuvWsuMTi-171" vertex="1">
@@ -538,7 +538,7 @@
           <mxGeometry y="240" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-1" value="AP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="1880" width="190" height="330" as="geometry" />
+          <mxGeometry x="10" y="1880" width="190" height="360" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-2" value="aos-boot-security" style="text;strokeColor=none;fillColor=#66FF66;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-1">
           <mxGeometry y="30" width="190" height="30" as="geometry" />
@@ -570,6 +570,9 @@
         <mxCell id="RPb2RozRaFCJ077nKXMq-11" value="easyexcel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-1">
           <mxGeometry y="300" width="190" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-25" value="spring-boot-starter-quartz" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-1">
+          <mxGeometry y="330" width="190" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-13" value="&lt;span style=&quot;text-align: left;&quot;&gt;aos-module-desensitized&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1960" width="160" height="240" as="geometry" />
         </mxCell>
@@ -597,7 +600,7 @@
         <mxCell id="RPb2RozRaFCJ077nKXMq-21" value="&lt;span style=&quot;text-align: left;&quot;&gt;aos-boot-metadata&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1084" y="2280" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="RPb2RozRaFCJ077nKXMq-22" value="aos-boot-web" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-21">
+        <mxCell id="RPb2RozRaFCJ077nKXMq-22" value="aos-boot-web" style="text;strokeColor=none;fillColor=#00CC00;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-21">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-23" value="spring-boot-starter-test&lt;br&gt;( scope test)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-21">
@@ -605,6 +608,147 @@
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-24" value="定义了一些抽象的实体，字段，字段类别，包，接口看上去是为代码生成做准备的" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-21">
           <mxGeometry y="90" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-26" value="aos-gateway-ap" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2400" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-27" value="将AP作为parent项目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-28" value="aos-boot-core" style="text;strokeColor=none;fillColor=#FF3333;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-29" value="aos-boot-data-jpa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-30" value="aos-boot-cache" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-31" value="aos-cloud-gateway" style="text;strokeColor=none;fillColor=#FFB366;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-32" value="aos-boot-security-webflux" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-33" value="aos-waf-sdk" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+          <mxGeometry y="210" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-34" value="aos-cloud-gateway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
+          <mxGeometry x="442" y="2520" width="248" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-35" value="aos-boot-core" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+          <mxGeometry y="30" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-36" value="aos-boot-data-jpa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+          <mxGeometry y="60" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-42" value="javax.annotation-api" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+          <mxGeometry y="90" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-41" value="jackson-module-jaxb-annotations" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+          <mxGeometry y="120" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-40" value="jackson-datatype-hppc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+          <mxGeometry y="150" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-38" value="jackson-datatype-jsr310" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+          <mxGeometry y="180" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-39" value="springdoc-openapi-webflux-core" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+          <mxGeometry y="210" width="248" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-45" value="springdoc-openapi-ui" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+          <mxGeometry y="240" width="248" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="swagger-annotations" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-46">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="270" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="HikariCP" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-44">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="300" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="netty-tcnative-boringssl-static" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-47">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="330" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-boot-starter-webflux" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-48">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="360" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="org.zalando&lt;br&gt;problem-spring-webflux" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-49">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="390" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-cloud-starter-gateway" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-50">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="420" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-cloud-starter" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-51">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="450" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-retry" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-52">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="480" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-cloud-starter-bootstrap" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-53">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="510" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-cloud-starter-loadbalancer" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-54">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="540" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-cloud-starter-openfeign" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-55">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="570" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-cloud-starter-alibaba-nacos-discovery" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-56">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="600" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-cloud-starter-alibaba-nacos-config" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-57">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="630" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-cloud-starter-circuitbreaker-reactor-resilience4j" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-58">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="660" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="spring-cloud-starter-sleuth" link="io.swagger.core.v3" id="RPb2RozRaFCJ077nKXMq-59">
+          <mxCell style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-34">
+            <mxGeometry y="690" width="248" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-60" value="&lt;span style=&quot;text-align: left;&quot;&gt;aos-boot-security-webflux&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2720" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-61" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-62" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-63" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-64" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Configuration&lt;/h1&gt;&lt;p&gt;1.通过设定超时时间简单配置了Resilience4Jconfiguration&lt;/p&gt;&lt;p&gt;2. 定义了AbstractApp 各个项目启动类集成的类。主要写入了启动环境判断和启动时候的项目地址日志输出。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="3075" width="180" height="175" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
