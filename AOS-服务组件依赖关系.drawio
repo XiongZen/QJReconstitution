@@ -736,16 +736,22 @@
           </mxCell>
         </UserObject>
         <mxCell id="RPb2RozRaFCJ077nKXMq-60" value="&lt;span style=&quot;text-align: left;&quot;&gt;aos-boot-security-webflux&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="2720" width="200" height="120" as="geometry" />
+          <mxGeometry x="840" y="2720" width="200" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="RPb2RozRaFCJ077nKXMq-61" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+        <mxCell id="RPb2RozRaFCJ077nKXMq-61" value="aos-boot-cache" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RPb2RozRaFCJ077nKXMq-62" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+        <mxCell id="RPb2RozRaFCJ077nKXMq-62" value="aos-boot-data-jpa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RPb2RozRaFCJ077nKXMq-63" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+        <mxCell id="RPb2RozRaFCJ077nKXMq-63" value="spring-security-data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
           <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-65" value="spring-boot-starter-webflux" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-66" value="spring-boot-starter-webflux" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+          <mxGeometry y="150" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-64" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Configuration&lt;/h1&gt;&lt;p&gt;1.通过设定超时时间简单配置了Resilience4Jconfiguration&lt;/p&gt;&lt;p&gt;2. 定义了AbstractApp 各个项目启动类集成的类。主要写入了启动环境判断和启动时候的项目地址日志输出。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="3075" width="180" height="175" as="geometry" />
