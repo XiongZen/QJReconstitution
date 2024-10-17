@@ -621,16 +621,16 @@
         <mxCell id="RPb2RozRaFCJ077nKXMq-29" value="aos-boot-data-jpa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
           <mxGeometry y="90" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RPb2RozRaFCJ077nKXMq-30" value="aos-boot-cache" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+        <mxCell id="RPb2RozRaFCJ077nKXMq-30" value="aos-boot-cache" style="text;strokeColor=none;fillColor=#CCFFCC;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
           <mxGeometry y="120" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-31" value="aos-cloud-gateway" style="text;strokeColor=none;fillColor=#FFB366;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
           <mxGeometry y="150" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RPb2RozRaFCJ077nKXMq-32" value="aos-boot-security-webflux" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+        <mxCell id="RPb2RozRaFCJ077nKXMq-32" value="aos-boot-security-webflux" style="text;strokeColor=none;fillColor=#009999;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
           <mxGeometry y="180" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RPb2RozRaFCJ077nKXMq-33" value="aos-waf-sdk" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
+        <mxCell id="RPb2RozRaFCJ077nKXMq-33" value="aos-waf-sdk" style="text;strokeColor=none;fillColor=#66B2FF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-26">
           <mxGeometry y="210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-34" value="aos-cloud-gateway" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" vertex="1" parent="1">
@@ -735,26 +735,59 @@
             <mxGeometry y="690" width="248" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="RPb2RozRaFCJ077nKXMq-60" value="&lt;span style=&quot;text-align: left;&quot;&gt;aos-boot-security-webflux&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="2720" width="200" height="180" as="geometry" />
+        <mxCell id="RPb2RozRaFCJ077nKXMq-60" value="&lt;span style=&quot;text-align: left;&quot;&gt;aos-boot-security-webflux&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#009999;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2720" width="170" height="270" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-61" value="aos-boot-cache" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
-          <mxGeometry y="30" width="200" height="30" as="geometry" />
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-62" value="aos-boot-data-jpa" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
-          <mxGeometry y="60" width="200" height="30" as="geometry" />
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-63" value="spring-security-data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
-          <mxGeometry y="90" width="200" height="30" as="geometry" />
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-65" value="spring-boot-starter-webflux" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
-          <mxGeometry y="120" width="200" height="30" as="geometry" />
+          <mxGeometry y="120" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RPb2RozRaFCJ077nKXMq-66" value="spring-boot-starter-webflux" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
-          <mxGeometry y="150" width="200" height="30" as="geometry" />
+        <mxCell id="RPb2RozRaFCJ077nKXMq-66" value="spring-boot-starter-oauth2-resource-server" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+          <mxGeometry y="150" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-67" value="spring-data-commons" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+          <mxGeometry y="180" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-68" value="problem-spring-webflux" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+          <mxGeometry y="210" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-69" value="eu.bitwalker&lt;br&gt;UserAgentUtils" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-60">
+          <mxGeometry y="240" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RPb2RozRaFCJ077nKXMq-64" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Configuration&lt;/h1&gt;&lt;p&gt;1.通过设定超时时间简单配置了Resilience4Jconfiguration&lt;/p&gt;&lt;p&gt;2. 定义了AbstractApp 各个项目启动类集成的类。主要写入了启动环境判断和启动时候的项目地址日志输出。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="3075" width="180" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-70" value="实现了用户Token 分发，鉴权，IP地址判断的逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1024" y="2840" width="106" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-71" value="&lt;span style=&quot;text-align: left;&quot;&gt;aos-waf-sdk&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#66B2FF;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2700" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-72" value="集成了部分IP校验，IP拒绝的功能" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-71">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-73" value="aos-boot-core" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-71">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-75" value="spring-data-redis" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-71">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-76" value="lombok" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-71">
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-77" value="commons-lang3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-71">
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RPb2RozRaFCJ077nKXMq-74" value="jackson-databind" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="RPb2RozRaFCJ077nKXMq-71">
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
