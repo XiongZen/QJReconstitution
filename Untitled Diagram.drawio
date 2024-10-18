@@ -79,7 +79,7 @@
           <mxGeometry x="616.88" y="510" width="76.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-62" value="应用部署架构" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
-          <mxGeometry x="510" y="80" width="861" height="40" as="geometry" />
+          <mxGeometry x="360" y="80" width="1120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="07MpoBeY5wm7lqhEivzJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="07MpoBeY5wm7lqhEivzJ-3" target="6a7d8f32e03d9370-12">
           <mxGeometry relative="1" as="geometry" />
