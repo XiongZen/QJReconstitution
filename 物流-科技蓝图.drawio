@@ -135,34 +135,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-70" value="融资租赁系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="321" y="520" width="130" height="60" as="geometry" />
+          <mxGeometry x="293" y="496" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IccJKijxhRv_FzLwBZtU-71" target="IccJKijxhRv_FzLwBZtU-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-71" value="经营租赁管理系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="568" y="520" width="170" height="60" as="geometry" />
+          <mxGeometry x="540" y="496" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IccJKijxhRv_FzLwBZtU-73" target="IccJKijxhRv_FzLwBZtU-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-73" value="车辆（资产）运营管理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="798.5" y="520" width="130" height="60" as="geometry" />
+          <mxGeometry x="770.5" y="496" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-75" value="车货匹配系统" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="985.5" y="520" width="130" height="60" as="geometry" />
+          <mxGeometry x="957.5" y="496" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-77" value="具备系统能力" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="570" width="60" height="30" as="geometry" />
+          <mxGeometry x="322" y="546" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-78" value="初见雏形" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="614" y="570" width="60" height="30" as="geometry" />
+          <mxGeometry x="586" y="546" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-80" value="规划中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="820" y="570" width="60" height="30" as="geometry" />
+          <mxGeometry x="792" y="546" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-84" value="规划中" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="570" width="60" height="30" as="geometry" />
+          <mxGeometry x="982" y="546" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
