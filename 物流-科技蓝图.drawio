@@ -62,7 +62,7 @@
         <mxCell id="IccJKijxhRv_FzLwBZtU-6" value="持车平台&lt;div&gt;（合资公司）&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="494" y="261.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IccJKijxhRv_FzLwBZtU-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IccJKijxhRv_FzLwBZtU-8">
+        <mxCell id="IccJKijxhRv_FzLwBZtU-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IccJKijxhRv_FzLwBZtU-8" target="IccJKijxhRv_FzLwBZtU-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="260" as="targetPoint" />
           </mxGeometry>
@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-8" value="骐进集团" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="137" width="120" height="60" as="geometry" />
+          <mxGeometry x="494" y="137" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IccJKijxhRv_FzLwBZtU-13" value="商用车" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="738.5" y="394" width="45" height="29" as="geometry" />
