@@ -70,6 +70,19 @@
             <mxPoint x="79" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF3333;" edge="1" parent="1" source="B6epGFHpPmpgxB0K8m7q-4" target="B6epGFHpPmpgxB0K8m7q-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="275" />
+              <mxPoint x="520" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-75" value="10.代客结清" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B6epGFHpPmpgxB0K8m7q-74">
+          <mxGeometry x="-0.1282" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-4" value="河北骐进融资担保有限公司&lt;div&gt;(&lt;font color=&quot;#6666ff&quot;&gt;提供代偿和回购担保&lt;/font&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="313" y="260" width="167" height="60" as="geometry" />
         </mxCell>
@@ -193,21 +206,21 @@
           <mxGeometry x="160" y="304" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-53" value="4.1.融资租赁款差额放款" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="193" y="60" width="120" height="30" as="geometry" />
+          <mxGeometry x="178" y="65" width="133" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-57" value="担保费、GPS费、履约保证金" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="167" y="247" width="98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-58" value="问题" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="610" width="330" height="120" as="geometry" />
+          <mxGeometry x="40" y="552" width="330" height="120" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-59" value="1.首付垫做不做？做的话，合同资金流是怎样的？&lt;font color=&quot;#ff3333&quot;&gt;答：不做首付垫。&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B6epGFHpPmpgxB0K8m7q-58">
           <mxGeometry y="30" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-60" value="2.金蝶-EAS-推送时间节点，流转方式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B6epGFHpPmpgxB0K8m7q-58">
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-60" value="2.&lt;span style=&quot;text-align: center;&quot;&gt;担保费、GPS费、履约保证金，还是否涉及到其他费用？&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B6epGFHpPmpgxB0K8m7q-58">
           <mxGeometry y="60" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-61" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B6epGFHpPmpgxB0K8m7q-58">
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-61" value="3.代客结清（正常、正常提前结清），会有哪些费用流转？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B6epGFHpPmpgxB0K8m7q-58">
           <mxGeometry y="90" width="330" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.85;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
