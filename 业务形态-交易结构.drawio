@@ -237,6 +237,19 @@
         <mxCell id="B6epGFHpPmpgxB0K8m7q-68" value="4.2担保费、GPS费、履约保证金" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="334" y="196" width="98" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#FF3333;" edge="1" parent="1" source="B6epGFHpPmpgxB0K8m7q-4" target="B6epGFHpPmpgxB0K8m7q-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="360" />
+              <mxPoint x="85" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-78" value="退履约保证金" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B6epGFHpPmpgxB0K8m7q-77">
+          <mxGeometry x="-0.0396" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
