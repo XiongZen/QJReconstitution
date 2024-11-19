@@ -148,7 +148,7 @@
         <mxCell id="B6epGFHpPmpgxB0K8m7q-11" value="中铁建金融租赁有限公司" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="675" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-19" value="2.2.融资租赁合同&lt;br&gt;2.3附条件合同" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-19" value="2.2.融资租赁合同&lt;br&gt;2.3附条件合同" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF99CC;" vertex="1" parent="1">
           <mxGeometry x="106" y="390" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.65;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="B6epGFHpPmpgxB0K8m7q-11">
@@ -181,10 +181,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-31" value="3.1.资产转让协议" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-31" value="3.1.资产转让协议" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF99CC;" vertex="1" parent="1">
           <mxGeometry x="523" y="382" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-37" value="2.1.担保合同" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-37" value="2.1.担保合同" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF99CC;" vertex="1" parent="1">
           <mxGeometry x="160" y="304" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-53" value="4.1.融资租赁款差额放款" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
