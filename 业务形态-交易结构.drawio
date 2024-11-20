@@ -311,7 +311,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-92" value="逾期代偿（垫款）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="683" width="280" height="120" as="geometry" />
+          <mxGeometry x="402" y="683" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-93" value="1.生成新的承租人账单，收费方为融担公司。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-92" vertex="1">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
@@ -323,16 +323,19 @@
           <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-98" value="风险结清（资方要求我司回购）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="843" width="280" height="120" as="geometry" />
+          <mxGeometry x="400" y="813" width="440" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-99" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-98" vertex="1">
-          <mxGeometry y="30" width="280" height="30" as="geometry" />
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-99" value="1.用资方的赎回金额，按照新的合同生成还款计划" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-98" vertex="1">
+          <mxGeometry y="30" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-100" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-98" vertex="1">
-          <mxGeometry y="60" width="280" height="30" as="geometry" />
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-100" value="2.情况一：无分期，直接一大笔，赎回日是应收日" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-98" vertex="1">
+          <mxGeometry y="60" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-101" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-98" vertex="1">
-          <mxGeometry y="90" width="280" height="30" as="geometry" />
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-101" value="3.情况二：赎回金额作为本金，按照与客户新达成的方案形成分期还款计划。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-98" vertex="1">
+          <mxGeometry y="90" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkJ1n5NsbMBghb1MMW-h-5" value="4.情况三：直接导入还款计划。（可能是调解或者法院判罚）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="B6epGFHpPmpgxB0K8m7q-98">
+          <mxGeometry y="120" width="440" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DkJ1n5NsbMBghb1MMW-h-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
