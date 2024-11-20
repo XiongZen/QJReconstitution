@@ -242,7 +242,7 @@
           <mxGeometry x="167" y="247" width="98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-58" value="问题" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="29" y="682" width="350" height="300" as="geometry" />
+          <mxGeometry x="860" y="80" width="350" height="300" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-59" value="1.首付垫做不做？做的话，合同资金流是怎样的？&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;答：不做首付垫业务。&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-58" vertex="1">
           <mxGeometry y="30" width="350" height="50" as="geometry" />
@@ -306,7 +306,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-92" value="逾期代偿（垫款）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="402" y="683" width="280" height="120" as="geometry" />
+          <mxGeometry x="862" y="390" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-93" value="1.生成新的承租人账单，收费方为融担公司。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-92" vertex="1">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
@@ -318,7 +318,7 @@
           <mxGeometry y="90" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-98" value="风险结清（资方要求我司回购）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="400" y="813" width="440" height="150" as="geometry" />
+          <mxGeometry x="860" y="520" width="440" height="150" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-99" value="1.用资方的赎回金额，按照新的合同生成还款计划" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-98" vertex="1">
           <mxGeometry y="30" width="440" height="30" as="geometry" />
@@ -364,7 +364,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DkJ1n5NsbMBghb1MMW-h-8" value="厂商贴息：指汽车制造商为了促进销售，与金融机构合作，为消费者提供的一种优惠贷款方式。在这种模式下，厂商将承担一部分或全部的贷款利息，从而降低消费者的购车成本，吸引更多的消费者购买其产品。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="34" y="998" width="300" height="90" as="geometry" />
+          <mxGeometry x="34" y="680" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DkJ1n5NsbMBghb1MMW-h-10" value="6.2贴息后息差补足" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="678" y="150" width="60" height="30" as="geometry" />
@@ -376,7 +376,7 @@
           <mxGeometry x="144.5" y="40" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DkJ1n5NsbMBghb1MMW-h-13" value="在限界上下文中，贴息金额是要从经销商差额放款中扣除的。所以会存在贴息后给中铁建补息差的动作。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="998" width="300" height="90" as="geometry" />
+          <mxGeometry x="414" y="680" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
