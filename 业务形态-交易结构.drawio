@@ -360,14 +360,23 @@
         <mxCell id="DkJ1n5NsbMBghb1MMW-h-7" value="9.逾期回购" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="614.8003946597382" y="577.7744706271728" as="geometry" />
         </mxCell>
+        <mxCell id="DkJ1n5NsbMBghb1MMW-h-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkJ1n5NsbMBghb1MMW-h-8" target="DkJ1n5NsbMBghb1MMW-h-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DkJ1n5NsbMBghb1MMW-h-8" value="厂商贴息：指汽车制造商为了促进销售，与金融机构合作，为消费者提供的一种优惠贷款方式。在这种模式下，厂商将承担一部分或全部的贷款利息，从而降低消费者的购车成本，吸引更多的消费者购买其产品。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="998" width="300" height="90" as="geometry" />
+          <mxGeometry x="34" y="998" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DkJ1n5NsbMBghb1MMW-h-10" value="6.2贴息后息差补足" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="678" y="150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DkJ1n5NsbMBghb1MMW-h-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;5.放款（融资租赁款）&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="645" y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkJ1n5NsbMBghb1MMW-h-12" value="如果存在贴息这里还会减去贴息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144.5" y="40" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkJ1n5NsbMBghb1MMW-h-13" value="在限界上下文中，贴息金额是要从经销商差额放款中扣除的。所以会存在贴息后给中铁建补息差的动作。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="998" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
