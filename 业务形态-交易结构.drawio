@@ -221,16 +221,16 @@
           <mxGeometry x="129" y="243" width="98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-58" value="问题" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="860" y="80" width="350" height="300" as="geometry" />
+          <mxGeometry x="860" y="80" width="350" height="260" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-59" value="1.首付垫做不做？做的话，合同资金流是怎样的？&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;答：不做首付垫业务。&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-58" vertex="1">
-          <mxGeometry y="30" width="350" height="50" as="geometry" />
+          <mxGeometry y="30" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-60" value="2.&lt;span style=&quot;text-align: center;&quot;&gt;担保费、GPS费、履约保证金，还是否涉及到其他费用？&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;答：二手车评估费、二手车抵押担保费、贴息以及【贴息-担保费】差额，负数差额从放款给经销商处减去；&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51); text-align: center; background-color: initial;&quot;&gt;正数差额中（中铁建基础利率利息金额-贴息后的对客利率利息金额）的部分由腾东付给中铁建&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 51, 51); text-align: center; background-color: initial;&quot;&gt;。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51); text-align: center; background-color: initial;&quot;&gt;其中二手车评估费考虑是否有必要拆分。&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-58" vertex="1">
-          <mxGeometry y="80" width="350" height="130" as="geometry" />
+          <mxGeometry y="70" width="350" height="110" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-61" value="3.代客结清（正常、正常提前结清），会有哪些费用流转？&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;答：计算资方利息差额，融担公司垫付利息差额。据此生成新的承租人账单，收费方为融担公司，&lt;span style=&quot;background-color: initial;&quot;&gt;垫付日为承租人应还款日，罚息为万五。&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="B6epGFHpPmpgxB0K8m7q-58" vertex="1">
-          <mxGeometry y="210" width="350" height="90" as="geometry" />
+          <mxGeometry y="180" width="350" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.85;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
