@@ -39,27 +39,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="B6epGFHpPmpgxB0K8m7q-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="527" y="407" as="sourcePoint" />
-            <mxPoint x="705" y="321" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="B6epGFHpPmpgxB0K8m7q-2" target="B6epGFHpPmpgxB0K8m7q-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="471" y="386" as="sourcePoint" />
-            <mxPoint x="480" y="106" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="520" y="523" />
-              <mxPoint x="520" y="128" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-49" value="交托代付协议&lt;div&gt;（框架协议）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="B6epGFHpPmpgxB0K8m7q-48" vertex="1" connectable="0">
-          <mxGeometry x="0.3355" y="-1" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-2" value="天津海鑫融资租赁有限公司&lt;div&gt;(&lt;font color=&quot;#6666ff&quot;&gt;用于租赁资产转让&lt;/font&gt;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="500" width="160" height="93" as="geometry" />
         </mxCell>
@@ -180,19 +159,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LreA1fDC0akW6fP3GfaB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6epGFHpPmpgxB0K8m7q-10" target="B6epGFHpPmpgxB0K8m7q-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="290" />
-              <mxPoint x="240" y="128" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LreA1fDC0akW6fP3GfaB-2" value="&lt;font color=&quot;#ff99cc&quot;&gt;2.4咨询服务合同&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LreA1fDC0akW6fP3GfaB-1">
-          <mxGeometry x="0.2729" y="1" relative="1" as="geometry">
-            <mxPoint x="29" y="-33" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-10" value="承租人" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="260" width="120" height="60" as="geometry" />
         </mxCell>
@@ -243,7 +209,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-31" value="&lt;font color=&quot;#003300&quot;&gt;3.1.资产转让协议&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#003300&quot;&gt;(框架协议)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF99CC;" parent="1" vertex="1">
-          <mxGeometry x="595" y="490" width="110" height="30" as="geometry" />
+          <mxGeometry x="595" y="505" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-37" value="2.1.担保合同" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF99CC;" parent="1" vertex="1">
           <mxGeometry x="160" y="304" width="80" height="30" as="geometry" />
@@ -299,6 +265,8 @@
             <Array as="points">
               <mxPoint x="400" y="610" />
               <mxPoint x="51" y="610" />
+              <mxPoint x="51" y="330" />
+              <mxPoint x="50" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -390,6 +358,46 @@
         </mxCell>
         <mxCell id="DkJ1n5NsbMBghb1MMW-h-13" value="在限界上下文中，贴息金额是要从经销商差额放款中扣除的。所以会存在贴息后给中铁建补息差的动作。" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="414" y="680" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LreA1fDC0akW6fP3GfaB-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="sourcePoint" />
+            <mxPoint x="320" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="290" />
+              <mxPoint x="240" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LreA1fDC0akW6fP3GfaB-4" value="&lt;font color=&quot;#ff99cc&quot;&gt;2.4咨询服务合同&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="268" y="160.83333333333348" as="geometry">
+            <mxPoint x="-2" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LreA1fDC0akW6fP3GfaB-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6epGFHpPmpgxB0K8m7q-2" target="B6epGFHpPmpgxB0K8m7q-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="410" as="sourcePoint" />
+            <mxPoint x="700" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="705" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LreA1fDC0akW6fP3GfaB-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="B6epGFHpPmpgxB0K8m7q-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="520" as="sourcePoint" />
+            <mxPoint x="540" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="520" />
+              <mxPoint x="520" y="330" />
+              <mxPoint x="520" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LreA1fDC0akW6fP3GfaB-7" value="交托代付协议&lt;div&gt;（框架协议）&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LreA1fDC0akW6fP3GfaB-6">
+          <mxGeometry x="0.3996" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
