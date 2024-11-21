@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="fRfgBuuNZVQ_U8t8CYqR">
-    <mxGraphModel dx="1395" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,20 +243,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-68" value="4.2从咨询服务费拆出千三作为担保费、GPS费" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="372" y="172" width="132" height="46" as="geometry" />
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-68" value="4.2从咨询服务费拆出担保费（融资额*&lt;font color=&quot;#ff3333&quot;&gt;年（月份进一）&lt;/font&gt;*千三）作为担保费" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="169" width="164" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="B6epGFHpPmpgxB0K8m7q-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#FF3333;" parent="1" source="B6epGFHpPmpgxB0K8m7q-4" target="B6epGFHpPmpgxB0K8m7q-10" edge="1">
+        <mxCell id="B6epGFHpPmpgxB0K8m7q-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#FF3333;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="B6epGFHpPmpgxB0K8m7q-1" target="B6epGFHpPmpgxB0K8m7q-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="397" y="360" />
+              <mxPoint x="360" y="180" />
+              <mxPoint x="270" y="180" />
+              <mxPoint x="270" y="360" />
               <mxPoint x="85" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-78" value="退履约保证金" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="B6epGFHpPmpgxB0K8m7q-77" vertex="1" connectable="0">
           <mxGeometry x="-0.0396" y="-4" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="1" y="25" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B6epGFHpPmpgxB0K8m7q-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.333;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;strokeColor=#FF3333;" parent="1" source="B6epGFHpPmpgxB0K8m7q-2" edge="1">
