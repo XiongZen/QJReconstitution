@@ -145,8 +145,32 @@
         <mxCell id="l_11CZ8YvdLJNFjwXb9s-52" value="遍历printfile" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="2140" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="l_11CZ8YvdLJNFjwXb9s-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_11CZ8YvdLJNFjwXb9s-53" target="l_11CZ8YvdLJNFjwXb9s-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="l_11CZ8YvdLJNFjwXb9s-53" value="创建易签宝签署文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="225" y="2180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l_11CZ8YvdLJNFjwXb9s-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_11CZ8YvdLJNFjwXb9s-54" target="l_11CZ8YvdLJNFjwXb9s-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_11CZ8YvdLJNFjwXb9s-54" value="添加签署文档列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="2280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l_11CZ8YvdLJNFjwXb9s-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_11CZ8YvdLJNFjwXb9s-56" target="l_11CZ8YvdLJNFjwXb9s-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_11CZ8YvdLJNFjwXb9s-56" value="循环获取签章关键字" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="2390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l_11CZ8YvdLJNFjwXb9s-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_11CZ8YvdLJNFjwXb9s-58" target="l_11CZ8YvdLJNFjwXb9s-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_11CZ8YvdLJNFjwXb9s-58" value="循环签章关键字" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="2490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l_11CZ8YvdLJNFjwXb9s-60" value="获取&quot;lessor&quot;出租人签章关键字位置" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
