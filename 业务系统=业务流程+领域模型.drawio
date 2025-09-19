@@ -100,6 +100,9 @@
             <mxRectangle width="177" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wZ8ZGPUIlpnk7HS7Llxm-31" value="&lt;ol&gt;&lt;li&gt;业务访谈&lt;/li&gt;&lt;li&gt;根据业务画流程图&lt;/li&gt;&lt;li&gt;根据业务流程列出业务角色&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="92" y="700" width="198" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
