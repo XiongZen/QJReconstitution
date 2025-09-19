@@ -286,6 +286,18 @@
             <mxRectangle width="228" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wZ8ZGPUIlpnk7HS7Llxm-79" value="领域模型图" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1640" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ8ZGPUIlpnk7HS7Llxm-81" value="画出所有角色目标实体表" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wZ8ZGPUIlpnk7HS7Llxm-79">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ8ZGPUIlpnk7HS7Llxm-80" value="限界上下文" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wZ8ZGPUIlpnk7HS7Llxm-79">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wZ8ZGPUIlpnk7HS7Llxm-83" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;企业的价值流&lt;/h1&gt;&lt;p&gt;从客户的需求出发，到最终向客户交付产品/服务并创造价值的全过程。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1600" width="280" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
