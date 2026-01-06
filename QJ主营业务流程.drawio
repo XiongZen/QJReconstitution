@@ -187,11 +187,14 @@
         <mxCell id="cJ7wx3jaP6QdSZSLkUMS-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="融资租赁主要业务流程" vertex="1">
           <mxGeometry height="30" width="140" x="-430" y="70" as="geometry" />
         </mxCell>
+        <mxCell id="cJ7wx3jaP6QdSZSLkUMS-74" edge="1" parent="1" source="cJ7wx3jaP6QdSZSLkUMS-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cJ7wx3jaP6QdSZSLkUMS-73" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cJ7wx3jaP6QdSZSLkUMS-63" parent="1" style="whiteSpace=wrap;html=1;" value="合同方案" vertex="1">
           <mxGeometry height="60" width="120" x="-680" y="540" as="geometry" />
         </mxCell>
         <mxCell id="cJ7wx3jaP6QdSZSLkUMS-65" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="需要具备的能力" vertex="1">
-          <mxGeometry height="210" width="260" x="-470" y="330" as="geometry" />
+          <mxGeometry height="270" width="260" x="-470" y="330" as="geometry" />
         </mxCell>
         <mxCell id="cJ7wx3jaP6QdSZSLkUMS-66" parent="cJ7wx3jaP6QdSZSLkUMS-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="1. 对接人民银行征信中心" vertex="1">
           <mxGeometry height="30" width="260" y="30" as="geometry" />
@@ -208,8 +211,17 @@
         <mxCell id="cJ7wx3jaP6QdSZSLkUMS-70" parent="cJ7wx3jaP6QdSZSLkUMS-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="4.合同电子签" vertex="1">
           <mxGeometry height="30" width="260" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="cJ7wx3jaP6QdSZSLkUMS-71" parent="cJ7wx3jaP6QdSZSLkUMS-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="4.短信qi" vertex="1">
+        <mxCell id="cJ7wx3jaP6QdSZSLkUMS-71" parent="cJ7wx3jaP6QdSZSLkUMS-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="5.短信通知" vertex="1">
           <mxGeometry height="30" width="260" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cJ7wx3jaP6QdSZSLkUMS-72" parent="cJ7wx3jaP6QdSZSLkUMS-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="6.内部消息通知（钉钉/企业微信）" vertex="1">
+          <mxGeometry height="30" width="260" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cJ7wx3jaP6QdSZSLkUMS-75" parent="cJ7wx3jaP6QdSZSLkUMS-65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="7.流程引擎" vertex="1">
+          <mxGeometry height="30" width="260" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cJ7wx3jaP6QdSZSLkUMS-73" parent="1" style="whiteSpace=wrap;html=1;" value="内部审批" vertex="1">
+          <mxGeometry height="60" width="120" x="-680" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
